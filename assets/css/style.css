@@ -1,0 +1,179 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.container-fluid{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+nav{
+    height: auto!important;
+    font-family: Palatino;
+    font-size: 20px;
+    
+    font-weight: bolder;
+}
+.nav a{
+    color:black!important;
+}
+h1{
+    font-size: 20px;
+    font-family: Palatino;
+    float: left;
+    margin-top: 16px;
+    font-weight: bolder;
+}
+.image img{
+    float: left;
+}
+.jumb{
+    background: url('../Hero.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+}
+#aleks{
+    text-align: center;
+}
+#aleks img{
+    margin-top: -100px;
+}
+#about img{
+    margin: 30px 0px;
+}
+
+.fff{
+    color: black;
+    margin: 0 5px;
+}
+.row{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+.alekIs{
+    text-align: center;
+    font-size: 20px;
+    padding: 50px 0px;
+}
+#bg{
+    background:url('../books-connection-contemporary-459654.png');
+    min-height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 0px;
+}
+#bg p{
+    font-size:20px;
+    text-align: center;
+}
+.photoss img{
+    margin:0 30px;
+}
+.photoss{
+    padding: 60px 0px;
+}
+.bb{
+    background:url('../footer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.text p{
+    font-size:20px;
+}
+.text{
+    padding: 10% 0px 0px 2%;
+}
+.form {
+    padding: 100px 4% 0px 4%;
+}
+
+.buti{
+    width: 100%!important;
+    background-color: rgb(255, 166, 0);
+    border:0px;
+    height: 40px;
+}
+.form-group{
+    margin-bottom: 10px!important;
+}
+input , textarea, button{
+    border-radius:8px!important;
+}
+.lg{
+    margin-top: 70px;
+}
+.nnavv{
+    margin: 40px 0px;
+    color:black;
+}
+.nnavv a{
+    color:black;
+    font-family: Palatino;
+    font-size:20px;
+}
+.marg{
+    padding: 20px 0px;
+}
+.font{
+    font-family: 'Playball', cursive;
+}
+.wrp{
+    margin: 15px;
+}
+@media (max-width: 991.98px) {
+    .bb{
+       
+       background: none; 
+    }
+    h1{
+        display: none;
+    }
+    .left{
+        width: 85%;
+        float:left;
+    }
+    .right{
+        width: 15%;
+        float:left;
+    }
+    .right img{
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+    #nav{
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+    }
+}
+@media (max-width: 575.98px) { 
+    #bg{
+        background:url('../mobile/books-connection-contemporary-459654.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bb{
+        background:url('../mobile/Layer\ asdf.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+    }
+    .lg{
+        margin-top: 200px;
+    }
+    .form form{
+        padding-top:100px;
+    }
+   
+    .ph{
+        margin: 50px;
+    }
+    .photoss img{
+        margin:30px;
+    }
+}
+
+
